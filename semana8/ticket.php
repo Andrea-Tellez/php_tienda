@@ -24,22 +24,22 @@
 
         $productos = [
             [
-                "cantidad" => 3,
-                "descripcion" => "Cargador Inalambrico Móvil De Carga Rápida",
-                "precio" => 170,
+                "cantidad" => 1,
+                "descripcion" => "Plumones Crayola Caja Con 50 piezas",
+                "precio" => 320,
             ],
             [
                 "cantidad" => 2,
-                "descripcion" => "Control Para Celular Bluetooth Con Soporte Gamepad Android",
-                "precio" => 229,
+                "descripcion" => "Mochila Nylon Impermiable Portátil",
+                "precio" => 498,
             ],
             [
-                "cantidad" =>5,
-                "descripcion" => "Funda Contra Agua Sumergible Protector Universal",
-                "precio" => 20,
+                "cantidad" =>1,
+                "descripcion" => "Cafeteria Oster",
+                "precio" => 823,
             ],
             [
-                "cantidad" => 1,
+                "cantidad" => 2,
                 "descripcion" => "Reloj Coach Dama Color Purpura",
                 "precio" => 1700,
             ],

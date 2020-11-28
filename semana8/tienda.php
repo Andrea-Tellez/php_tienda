@@ -9,6 +9,7 @@
 <script src="carrito.js" language="javascript" type="text/javascript">
 </script>
 <body>
+
 <form action="ticket.php" method="GET"  
 	<form id="FormularioTienda" class="FormularioTienda">
 
@@ -32,8 +33,19 @@
 		<p><label></br>Total a pagar:
 		<input type="number" name="totaldepago" id="suma a pagar" readonly=""></label></p>
 		<input type="button" id="botonNuevo" value="Nueva Compra" onclick="location.reload()">
-    <input type="submit" id="cobrar" value="Cobrar" onclick="()">
+    
+    <form action="insert.php" method="GET">
+    <input type="submit" id="cobrar" href="insert.php" value="Cobrar" </p>
 		</form>
+        <div class="container-fluid">
+        <h1>Base de datos los articulos </h1>
+        <a href="../index.php">Ingresa aqui</a>
+    </div>
+    <div class="container-fluid">
+        <h1>Historial de las ventas</h1>
+        <a href="historial_ventas.php">Ingresa aquí</a>
+        
+    </div>
 </body>
 
 </html>
